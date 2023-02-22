@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/347ed1d3d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="/logo.png" alt="logo" classname="logo"> -->
+                
+                <ul>
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About Me</a></li>
+                    <li> <a href="#certifications">Certifications</a></li>
+                    <li> <a href="#projects">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                
+                <h1>Hi, this is <span> Venkat Sai Kasumurthy. </span></h1> <br>  
+                <p> Aspiring Cloud/DevOps Engineer and Entrepreneur.</p> 
+                <br>
+                <!-- <p> I am a person who thinks, and likes, in order to be the best. This can be seen in the activities which I take up at the college level or professional level as well. 
+                    My academic record demonstrates my zeal for excellence, and my ability to perform and perform on time. In all these years of schooling, I have taken up many challenges 
+                    with utmost determination and commitment, this has given me the confidence and experience to confront the challenges with ease.</p>              -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------About-Me--------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="/pic.JPG" >
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title" id="aboutme-subtitle">About Me.</h1>
+                    <p>
+                    I am a person who thinks, and likes, in order to be the best. This can be seen in the activities which I take up at the college level or professional level as well. 
+                    My academic record demonstrates my zeal for excellence, and my ability to perform and perform on time. In all these years of schooling, I have taken up many challenges 
+                    with utmost determination and commitment, this has given me the confidence and experience to confront the challenges with ease.
+                    </p> <br>
+                    
+                    <p1> To be graduated with a Master's of Science in Computer Science (expected 2023). I hold a Bachelor degree in Information Science and Engineering.</p1> <br>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills </p>
+                            <p class="tab-links"onclick="opentab('Education')">Education </p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience </p>
+                            
+                        </div>
+
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <!-- <li> <span> Programming Languages: </span> C, C++, Python</li>
+                                <li> <span> Databases:</span> SQL, MYSQL, DynamoDB, Redshift </li>
+                                <li> <span> DevOps </span> Git, Maven, SonarQube, Jenkins, Ansible, Docker, Terraform, CI/CD</li>
+                                <li> <span> Cloud:</span> Amazon Web Services.</li> -->
+
+                                <li> Knowledge of Linux and Scripting languages (Python)
+                                <li>  Proficient with various development, testing and deployment tools - Git, Jenkins, Docker, Kubernetes, Ansible </li>  
+                                <li> Good understanding of DevOps key concepts like Infrastructure as code (laC), Terraform</li>
+                                </li>Experience in developing CI/ CD pipelines</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li> <span>  Stevens Institute of Technology, Hoboken, New Jersey, USA. </span> <br> GPA: 3.82/4. <br>2021-2023</li>
+                                <li> <span> Nitte Meenakshi Institute of Technology, Bangalore, India.</span> <br> GPA: 8.3/10. <br> 2016-2020 </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Experience">    
+                        <h1> <span> Internship: </span>DevOps Engineer Intern at Infosys.</h1> <br>
+
+                            <ul>
+                                <li>Maintained Git workflows for version control (Source Code Management)</li>
+                                <li> Developed and maintained automated CI/CD pipelines for code deployment using Jenkins </li>
+                                <li>Provisioned Servers and deployed features using Ansible </li>
+                                <li>Built and deployed Docker containers for implementing Microservice Architecture from Monolithic Architecture Containerized an application using Docker</li>
+                                <li>Orchestrated Docker container cluster using Kubernetes </li>
+                            </ul>
+                            
+                        </div>
+
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------Certifications--------------------------- -->
+
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications.</h1>
+        <br>
+        <div class="certifications-list">
+
+            <div class="practitioner">
+                <p> AWS Certified Cloud Practitioner. </p> <br>
+                <a href="https://www.credly.com/badges/de4775e5-8c2c-4497-bbbe-39959c14edfe/public_url"> View my badge here. </a>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="associate">
+                <p> AWS Certified Solutions Architect – Associate. </p> <br>
+                <a href="https://www.credly.com/badges/bb9eda5d-205d-4fd8-9c0b-f63f532d7054/public_url"> View my badge here. </a>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title" id=projects-subtitle>My Projects.</h1>
+        <div class="worklist">
+            <div class="work">
+
+                <div class="layer">
+                    <h3 id="h3"> 1) Designed a 3-tire acrhitecture in AWS </h3>
+                    <ul>
+                            <li> Designed and developed cloud infrastructure architecture to host web-application according to management’s requirement. </li>   
+                            <li> EC2, VPC, S3, RDS, CloudWatch and ELB’s are the major AWS services used to deploy the application.</li>
+                            <li> The architecture was designed for maximum availability and durability, minimum latency, auto-scaling
+                              and load-balancing.</li>
+                    </ul>
+                   
+                </div>
+
+                <div class="layer">
+                    <h3 id="h3"> 2) Built a serverless Web-Application. </h3>
+                    <ul>
+                            <li> The application architecture uses AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon
+                                Cognito and AWS Amplify Console.</li>
+                            <li> Created a simple serverless web application that enables users to request rides from the fleet of rides.</li>
+                            <li> The application will present user an interface for indicating the location where they would like to be picked
+                                up and with the help of RESTful web service the nearby ride will be dispatched.</li>
+                    </ul>
+                    
+                </div>
+
+                    <div class="layer">
+                        <h3 id="h3"> 3) Marketplace for Stevens Institute of Technology. </h3>
+                        <ul>
+                                <li> Developed a responsive Web-Application for stevens Institute of technology that can be used by stevens
+                                    community.</li>
+                                <li> Built application has various features and API which will enable users to, Log-in, Sign-up, Search Products,
+                                    etc.</li>
+                                <li> MongoDB, JavaScript, Express, NodeJS and Handlebars were used for development of the application.</li>
+                               
+                        </ul>
+
+                </div>
+
+
+                <div class="layer">
+                    <h3 id="h3"> 4) Solving Business Challenges using Data for ExampleCompany <br>
+                        ( Data visualization and Data Analysis) </h3>
+                    <ul>
+                        <li> A Company recently detected decline in subscriptions and an increase in the number of customers canceling of service. 
+                            <li>Used customer data to validate increase in cancelations.<br> (Using Amazon S3, Amazon Athena, and Amazon QuickSight).</li>
+                                
+                            <li> Fetched Twitter data of Company to look for customer sentiment.</li> 
+                            <li>Built a streaming data pipeline including enrichment.<br>(Stored in Amazon S3, enriched with AWS Lambda and Amazon Comprehend).<br>
+                                (Amazon Comprehend extracted key phrases and assigned a sentiment score). </li>
+                            <li> Used sentiment data combined with customer data to analyze negative sentiment for customers who have terminated.</li>
+                    </ul>
+
+            </div>
+
+            <div class="layer">
+                <h3 id="h3"> 5) Provisioning custom VPC in AWS (Virtual Private Cloud) using Terraform. (Infrastructure as Code) </h3>
+                
+                <ul>
+                    <li> Designed a custom Terraform script to launch a VPC . 
+                    <li> Built script has the ability to provision 3 public subnets, 3 private subnets, Internet Gateway, Route table association, NAT gateway, etc.  </li>
+                    <li> Custom script can launch entire VPC along with it's requirements.</li> 
+            </ul>
+
+        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------Contact-------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" id="contact-subtitle"> Contact Me.</h1>
+                <p> <i class="fa-solid fa-mobile" id="phoneno"></i> Phone No: +1 862-357-9745</p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/venkatsai-k/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/venkat_sai.k/"><i class="fa-brands fa-instagram"></i></a>
+               
+                   <a href="mailto:venkatsaikusumurthy@gmail.com">Send Email</a></p>
+                   <!-- <a href="my-cv.pdf" download class="btn btn2">Download Resume</a> -->
+                </div>
+        </div> 
+    </div>
+</div>
+
+<!-- ----------------------------vistcounter------------------------- -->
+<div class="counts">
+    <p> This website is hosted in AWS S3 as static website and number of visits for this website are: </p>
+    <h1 id="counts">0</h1>
+</div>
+
+<script>
+    const countEl = document.getElementById("counts");
+        countvisits();
+
+
+        function countvisits(){
+            fetch('https://api.countapi.xyz/update/myresumewebsite/cloud/?amount=1')
+            .then((res) => res.json())
+            .then((res) => {
+                countEl.innerHTML = res.value;
+            })
+        }
+
+</script>
+   
+<!-- -----------------------------------------Javascript-------------------------------- -->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+</script>
+
+<script>
+
+            <div class="col-sm">
+               <p id='0101' class="fs-2 text-light">0</p>
+               <p class="text-light">Site visits</p>
+            </div>
+</script>
+</body>
+</html>
